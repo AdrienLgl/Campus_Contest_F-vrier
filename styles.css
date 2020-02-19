@@ -1,0 +1,692 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#div_home {
+    height: 520px;
+    text-align: center;
+}
+.background_home {
+    background-image: url(images/bannière.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#nav{
+    background-color: #F5F0EF;
+    height: 30px;
+    
+}
+
+#div_home img{
+    width: 200px;
+    margin-top: 1%;
+}
+
+
+#text{
+    color: white;
+    font-size: 60px;
+    margin-top: 0px;
+    font-family: 'Luckiest Guy', cursive;
+    
+}
+
+#text + p{
+    color: white;
+    font-size: 30px;  
+    font-family: 'Baloo', cursive; 
+}
+
+#text + p +p{
+    color: white;
+    font-size: 30px;  
+    font-family: 'Baloo', cursive; 
+    margin: 30px 0px 10px 0px;
+}
+
+#menu{
+   display: inline-block;
+   height: 30px;
+   
+   
+}
+
+
+#menu ul {
+        margin:0;
+        padding:0;
+        list-style-type:none;
+        text-align:center;
+        
+        
+        }
+#menu li {
+        float:left;
+        margin:auto;
+        padding:0;
+        background-color:#3C4F5B;
+        }
+#menu li a {
+        display:block;
+        width:150px;
+        color:white;
+        text-decoration:none;
+        padding:5px;}
+        
+        
+        
+#menu ul li ul {display:none;}
+    
+#menu ul li:hover ul {display:block;}
+#menu li:hover ul li {float:none;}
+
+
+#menu li a:hover {color:rgba(0, 89, 255, 0.616);}
+#menu li ul {position:absolute;}
+
+#menu1{
+    display: block;
+    background-color: #3C4F5B;
+    text-align: right;
+}
+
+#div_principale{
+    width: 65.1%;
+    height: 250px;
+    background-color: #8CA4B3;
+    margin: auto;
+}
+
+
+#div_text{
+    height: 50%;
+    width: 60%;
+}
+
+#div_principale div span{
+    font-family: 'Baloo', cursive;
+    color: white;
+    
+
+}
+
+#button{
+
+    font:Bold 13px Arial;
+	background:#d34836;
+	color:#fff;
+    width:150px;
+    height: 25px;
+	border-radius:5px;
+	border:none;
+
+}
+
+#button + button{
+
+    font:Bold 13px Arial;
+	background:#d34836;
+	color:#fff;
+    width:150px;
+    height: 25px;
+	border-radius:5px;
+	border:none;
+}
+
+#div_principale + div{
+    text-align: center;
+    font-family: 'Baloo', cursive;
+    color: white;
+    font-size: 30px;
+}
+
+#div_principale + div +div{
+    text-align: center;
+    font-family: 'Baloo', cursive;
+    color: white;
+    font-size: 30px;
+}
+
+#span1{
+    margin-left: 15%;
+    font-family: 'Baloo', cursive;
+    
+    
+}
+
+#span1 + span{
+    margin-left: 15%;
+    font-family: 'Baloo', cursive;
+}
+
+#span1 + span +span{
+    margin-left: 11%;
+    font-family: 'Baloo', cursive;
+}
+
+#span1 + span +span +span{
+    margin-left: 9%;
+    font-family: 'Baloo', cursive;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    height: 150px;
+    
+    background-color: #3C4F5B;
+    margin: auto;
+}
+
+#div_text2 div p{
+    font-size: 30px;
+    font-family: 'Baloo', cursive;
+    color: white;
+    text-align: center;
+}
+
+#div_text2 div div{
+    text-align: start;
+}
+
+#div_text2 div{
+
+    height: 50px;
+    width: 100%;
+
+}
+
+#span5{
+    width: 75%;
+    height: 10px;
+    float: left;
+    margin-left: 180px;
+    margin-top: -100px;
+    font-family: 'Acme', sans-serif;
+    
+}
+#span6{
+    width: 70%;
+    height: 10px;
+    float: left;
+    margin-left: 180px;
+    margin-top: -100px;
+    font-family: 'Acme', sans-serif;
+    
+    
+}
+#span7{
+    width: 70%;
+    height: 10px;
+    float: left;
+    margin-left: 180px;
+    margin-top: -100px;
+    font-family: 'Acme', sans-serif;    
+}
+#span8{
+    width: 70%;
+    height: 10px;
+    float: left;
+    margin-left: 180px;
+    margin-top: -100px;
+    font-family: 'Acme', sans-serif;   
+    
+}
+
+#button3{
+    padding:6px 0 6px 0;
+	font:Bold 13px Arial;
+	background:#d34836;
+	color:#fff;
+	width:150px;
+	border-radius:5px;
+	border:none;
+}
+
+#div_home button{
+    font:Bold 13px Arial;
+	background:#d34836;
+	color:#fff;
+	width:150px;
+	border-radius:5px;
+    border:none;
+    height: 25px;
+    
+}
+footer img{
+    width: 100px;
+    float: right;
+    margin-top: 3%;
+    margin-right: 10%;
+}
+
+#span9{
+    margin-top: 1%;
+    margin-left: 5%;
+    float: left;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#span9 + span{
+    margin-top: 1%;
+    margin-left: 5%;
+    float: left;
+    font-size: 15px;
+    color: white;
+    clear: left;
+
+}
+
+#span9 + span + span{
+    margin-top: 1%;
+    margin-left: 5%;
+    float: left;
+    font-size: 15px;
+    color: white;
+    clear: left;
+
+}
+
+
+
+/*Page Compétence*/
+
+
+#div_page2{
+    background-color: #8CA4B3;
+    width: 100%;
+    height: 100%;
+    margin:auto;
+    
+}
+
+.background_compétence {
+    background-image: url(images/bannière.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.background_compétence span{
+    color: white;
+    display: block;
+    padding-top: 100px;
+    font-size: 50px;
+    font-family: 'Baloo', cursive ;
+}
+
+#div_competence{
+    text-align: center;
+
+}
+
+#div_page2 div{
+
+    height: 100%;
+    width: 65%;
+    background-color: #8CA4B3;
+    float: left;
+
+}
+
+#div_page2 div div{
+
+    height: 30%;
+    width: 50%;
+    background-color: #8CA4B3;
+    float: left;
+
+}
+
+#div_page2 div div span{
+
+    color: white;
+    float: left;
+    margin-top: 3%;
+    margin-left: 5%;
+    font-family: 'Baloo', cursive;
+    font-size: 30px;
+}
+
+
+
+
+#div_suite ul{
+    color: white;
+    font-family: 'Baloo', cursive;
+    font-size: 20px;
+    float: left;
+    margin-top: 4%;
+
+}
+
+
+#div5{
+    float: left;
+    
+   
+}
+
+#div_page2 #border{
+    height: 100%;
+    width: 35%;
+    
+    float: right;
+
+    text-align: center;
+    
+    
+    background-color: black;
+
+}
+
+#border span{
+    font-family: 'Baloo', cursive;
+    font-size: 25px;
+    color: white;
+    text-decoration: underline;
+   
+}
+
+#border ul{
+    text-align: left;
+    color: white;
+    
+}
+
+#border p{
+    text-align: left;
+    font-family: 'Baloo', cursive;
+    font-size: 19px;
+    color: white;
+    margin-left: 3%;
+   
+}
+
+marquee{
+    word-spacing: 100px;
+}
+
+
+#border{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+.carousel-item{
+    height:400px;
+
+}
+
+.carousel-inner{
+    height: 400px;
+}
+
+#contact img span{
+    text-align: center;
+
+}
+
+
+
+.contact #spancontact{
+    color: white;
+    padding-top: 100px;
+    font-size: 50px;
+    font-family: 'Baloo', cursive ;
+    margin-left: 44%;
+}
+
+
+
+
+
+
+
+
+
+
+input[type=text], select, textarea {
+    width: 200px; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;    
+    resize: vertical 
+  }
+
+
+
+  input[type=date]{
+    width: 200px; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;    
+    resize: none
+  }
+  
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+ 
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .container2 {
+    border-radius: 5px;
+    background-color: #3E5F72;
+    padding: 20px;
+  }
+
+
+  textarea{ resize:none;}
+
+  .rating a {
+    
+    float: right;
+    color: #aaa;
+    text-decoration: none;
+    font-size: 3em;
+    transition: color .4s;
+ }
+ .rating a:hover,
+ .rating a:focus,
+ .rating a:hover ~ a,
+ .rating a:focus ~ a {
+    color: orange;
+    cursor: pointer;
+ }
+ .clear{
+     clear: both;
+ }
+
+ footer{
+     clear: both;
+     bottom: 0px;
+     position: relative;
+     
+ }
+
+ #button_contact{
+    margin-left: 10px;
+    font:Bold 13px Arial;
+	background:#d34836;
+	color:#fff;
+    width:150px;
+    height: 25px;
+	border-radius:5px;
+	border:none;
+ }
+
+
+
+/* Popup container */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  /* The actual popup (appears on top) */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+
+
+
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+.form-container input[type=password] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+
+
+
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+#text_button{
+    font-family: 'Baloo', cursive;
+    
+}
