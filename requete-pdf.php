@@ -6,6 +6,8 @@ $username = "root";
 $password = "";
 
 
+//Génération du pdf avec les messages de la rubrique contact contenus dans la base de données
+
 class PDF extends FPDF
 {
 // en-tête

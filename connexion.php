@@ -1,5 +1,7 @@
 <?php
 
+//Connexion vers la base de données
+
 try {
 $user = "root";
 $pass = "";

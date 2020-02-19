@@ -28,13 +28,16 @@ $pass = "";
 
  while ($id<$br){
 
+    //Requête vers la base de données
+
     $bdd = new PDO('mysql:host=localhost;dbname=PortFolio', $user, $pass);
 
     $requete = $bdd->query('SELECT * FROM Avis WHERE id_formulaire = "'.$id.'"');
     
     while ($data = $requete->fetch()){
         
-        
+    //Récupération des données
+
        $nom = $data['nom'];
        $prenom = $data['prenom'];
        $note = $data['note'];
@@ -55,6 +58,8 @@ $pass = "";
 
 
 function couleur(){
+
+    //Fonction permettant d'afficher les notes sélectionnées par l'utilisateur dans la partie Recommandations
     
     global $note;
     if($note==1){
@@ -130,6 +135,8 @@ function couleur(){
 
 
 function download_pdf(){
+
+    //Fonction vérifiant les identifiants rentrés par l'administrateur dans la rubrique Contact
 
 
     $mail_form = $_POST['mail'];

@@ -2,6 +2,7 @@
  
  $tab = array($_POST['Prénom'], $_POST['Nom'], $_POST['statut'], $_POST['note'], $_POST['subject']);
 
+ //Récupération et envoi des données du formulaire de recommandations vers la base de données
 
  $nom = $_POST['Nom'];
  $prenom = $_POST['Prénom'];

@@ -1,5 +1,8 @@
 <?php    
     
+    //Réinitialisation des messages par l'administrateur
+
+
     $username = "root";
     $password = "";
     $dbname = "Portfolio";

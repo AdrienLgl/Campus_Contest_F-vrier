@@ -17,6 +17,8 @@
 
 <body>
 
+<!--Insertion du header en php-->
+
     <?php
 
     include 'Includes/header.php'
@@ -87,6 +89,10 @@
         <span><a href="#">BDD</span></a>
 
 </div>
+
+
+
+<!--Div qui contiennent les différents skills-->
 
         <div style="margin-top: 50px; width: auto; height: 200px;">
 
@@ -173,6 +179,8 @@
     </div>
 
     </div>
+
+    <!--Footer-->
 
     <footer>
 

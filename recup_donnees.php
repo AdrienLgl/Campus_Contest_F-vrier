@@ -1,5 +1,7 @@
 <?php
 
+ //Récupération et envoi des données du formulaire de contact vers la base de données
+
 
 $servername = "localhost";
 $username = "root";

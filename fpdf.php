@@ -7,6 +7,9 @@
 * Author:  Olivier PLATHEY                                                     *
 *******************************************************************************/
 
+//Fichier contenant les différentes fonctions de l'outil FPDF générant le pdf avec les messages de Contact
+
+
 define('FPDF_VERSION','1.82');
 
 class FPDF
